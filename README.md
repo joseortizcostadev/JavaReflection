@@ -17,5 +17,7 @@ You can compile this program in terminal by using this command: <br \>
 <strong> javac ReflectionTest.java </strong>
 # Execution
 For this example we are reflecting over the classes java.util.Date, but you can use any class made in Java including your own classes. The following command will output all the reflective facilities such as constructors, methods, variables. constants, interfaces as well as info about java.util.Date class. <br \>
-<strong \> java ReflectionTest -c -m -v -a -C -i -h java.util.Date </strong>
+```terminal
+    java ReflectionTest -c -m -v -a -C -i -h java.util.Date </strong>
+```
 
